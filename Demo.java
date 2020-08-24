@@ -13,22 +13,18 @@ public class Demo extends JFrame implements ActionListener
 {
 	JButton btn;
 	JTextArea ta;
-	private static final 
-String VOICENAME="kevin16";
+	private static final String VOICENAME="kevin16";
 	Demo()
 	{
 	setSize(500,500);
 	setLayout(null);
 	
 	btn=new JButton("Speak");
-	
 	ta=new JTextArea();
 	ta.setBounds(20,20,150,200);
 	btn.setBounds(190,20,80,40);
-	
 	add(btn);
 	add(ta);
-	 
 	btn.addActionListener(this);
 	
 	}
